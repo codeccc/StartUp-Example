@@ -1,6 +1,11 @@
 # StartUp-Example
 JetPack组件**App StartUp**使用示例，通过伪Sdk代码实现Sdk链式启动和懒启动。
 
+## App StartUp 简介
+
+App Startup 是 Android Jetpack 家族的成员，提供了一种在应用程序启动时，简单、高效的初始化组件的方法。无论是App开发人员，还是Library开发人员都可以使用App Startup来简化启动过程，并显式地设置初始化顺序。
+App Startup 不需要为每个组件的初始化定义单独的 ContentProvider，它提供了一个 ContentProvider 来运行所有依赖项的初始化，从而显著的提高了应用程序的启动速度。
+
 **App StartUp**的地址：[查看官方英文文档](https://developer.android.google.cn/topic/libraries/app-startup)
 
 **StatuUp Example**示例：[查看StartUp-Example](https://github.com/codeccc/StartUp-Example)
