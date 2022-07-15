@@ -137,9 +137,11 @@ class BInitializer : Initializer<SdkB> {
 完整example代码地址： [StartUp-Example](https://github.com/codeccc/StartUp-Example)
 
 示例代码的Sdk依赖说明：
+
 ![Sdk依赖启动关系](images/1.png)
 
 SdkE启动图示：
+
 ![SdkE启动图示](images/2.png)
 
 控制台中各Sdk初始化打印日志：
@@ -150,4 +152,5 @@ SdkE启动图示：
 2022-07-15 18:18:19.898 3915-3915/com.example.startup_example D/StartUp: SdkD被初始化了
 2022-07-15 18:19:40.135 3915-3915/com.example.startup_example D/StartUp: SdkE被初始化了
 ```
+
 ![日志](images/3.png)
