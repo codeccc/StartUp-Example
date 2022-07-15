@@ -2,6 +2,7 @@
 JetPack组件**App StartUp**使用示例，通过伪Sdk代码实现Sdk链式启动和懒启动。
 
 **App StartUp**的地址：[查看官方英文文档](https://developer.android.google.cn/topic/libraries/app-startup)
+
 **StatuUp Example**示例：[查看StartUp-Example](https://github.com/codeccc/StartUp-Example)
 
 ## JetPack组件Statup的基本使用方法
