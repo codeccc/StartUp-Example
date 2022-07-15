@@ -74,7 +74,7 @@ class AInitializer : Initializer<SdkA> {
 ```kotlin
 //延迟初始化Sdk
 AppInitializer.getInstance(applicationContext)
-    .initializeComponent(AInitializer::class.java)
+    .initializeComponent(EInitializer::class.java)
 ```
 
 完整代码如下：
@@ -83,9 +83,9 @@ binding.fab.setOnClickListener { view ->
 
     //延迟初始化Sdk
     AppInitializer.getInstance(applicationContext)
-        .initializeComponent(AInitializer::class.java)
+        .initializeComponent(EInitializer::class.java)
         
-    Snackbar.make(view, "初始化SdkA", Snackbar.LENGTH_LONG)
+    Snackbar.make(view, "初始化SdkE", Snackbar.LENGTH_LONG)
         .setAnchorView(R.id.fab)
         .setAction("Action", null).show()
 }
@@ -133,3 +133,5 @@ class BInitializer : Initializer<SdkB> {
 2022-07-15 18:18:18.891 3915-3915/com.example.startup_example D/StartUp: SdkB被初始化了
 ```
 
+### 代码示例
+完整example代码地址： [StartUp-Example](https://github.com/codeccc/StartUp-Example)
